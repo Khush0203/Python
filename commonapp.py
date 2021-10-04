@@ -1,3 +1,10 @@
+#create a new python file to store username and password
+#here it is commonappdatabase 
+#i have not uploaded it for privacy reasons 
+#create one and store encrypted passwords 
+#encrypting with a unique algorithm and decrypting before using it will make your automation smooth
+
+
 from selenium import webdriver
 from selenium.webdriver.android.webdriver import WebDriver
 import time
@@ -12,10 +19,10 @@ web = webdriver.Safari()
 web.get("https://apply.commonapp.org/login")
 
 username = web.find_element_by_xpath('//*[@id="loginEmailControl"]')
-username.send_keys(commonappdatabase.username)
+username.send_keys(commonappdatabase.username)#username
 
 password = web.find_element_by_xpath('//*[@id="loginPasswordControl"]')
-password.send_keys(commonappdatabase.decrypted)
+password.send_keys(commonappdatabase.decrypted)#decrypted password
 
 time.sleep(8)
 
