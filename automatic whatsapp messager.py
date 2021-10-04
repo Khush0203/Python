@@ -12,3 +12,5 @@ min = int(input("Enter minute of time you want to send the message: "))
 kit.sendwhatmsg(num, mes,hour,min)
 speaker.say("Message sent")
 speaker.runAndWait()
+
+#A KHUSH MUNSHI PRODUCTION
