@@ -2,7 +2,7 @@
 #save login details in item python file 
 #i have not included that file for privacy reasons
 #create one and store encrypted passwords 
-#encrypting with a unique algorithm and decrypting before using it will make your automation smooth
+#encrypting with a unique algorithm and decrypting before using it will make your automation smooth and secure
 
 from selenium import webdriver
 from selenium.webdriver.android.webdriver import WebDriver
